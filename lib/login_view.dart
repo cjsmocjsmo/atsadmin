@@ -13,10 +13,7 @@ class LoginView extends StatelessWidget {
 
   String? loginemail = "";
   String? password = "";
-  // final signInData = {
-
-  // }
-
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

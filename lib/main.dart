@@ -4,7 +4,6 @@ import 'firebase_options.dart';
 import 'login_view.dart';
 import 'mainpage.dart';
 
-// void main() => runApp(const AlphaTreeService());
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
@@ -20,10 +19,13 @@ class ATSAdminMain extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: _title, initialRoute: '/', routes: {
-      '/': (context) => LoginView(),
-      '/admin': (context) => const ATSAdmin(),
-      // '/Vids': (context) => const YoutubePlayerDemo(),
-    });
+    return MaterialApp(
+      title: _title,
+      initialRoute: '/',
+      routes: {
+        '/': (context) => LoginView(),
+        '/admin': (context) => const ATSAdmin(),
+      },
+    );
   }
 }
