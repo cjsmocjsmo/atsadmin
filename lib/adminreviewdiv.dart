@@ -11,7 +11,7 @@ class ReviewDivAdmin extends StatelessWidget {
         padding: const EdgeInsets.all(10.0),
         child: Container(
           margin: const EdgeInsets.only(top: 20),
-          height: 700,
+          height: 750,
           alignment: const Alignment(0, 0),
           decoration: BoxDecoration(
               color: const Color.fromARGB(255, 47, 28, 218),
